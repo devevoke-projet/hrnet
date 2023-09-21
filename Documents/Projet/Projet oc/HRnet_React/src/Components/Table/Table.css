@@ -1,0 +1,68 @@
+.container-option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.input-search {
+    width: 30%;
+    display: flex;
+}
+
+.input-search label {
+    margin-right: 0.5em;
+}
+
+.input-search input {
+    height: auto;
+}
+
+.select-option {
+    width: 10%;
+    display: flex;
+}
+
+.select-option label {
+    margin-right: 0.5em;
+}
+
+
+table {
+    border: 1px solid #6c850d;
+    width: 100%;
+}
+
+thead {
+    background-color: #6c850d;
+    color: #fff;
+}
+
+.table-head {
+    border: 1px solid #6c850d;
+}
+.table-head th {
+    padding: 0.5em;
+}
+
+.table-head span{
+    margin-left: 0.5em;
+}
+
+.container-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.show-pagination{
+
+}
+
+.container-button button {
+    width: 100px;
+    height: 50px;
+    margin-left: 1em;
+
+}
+
+
+

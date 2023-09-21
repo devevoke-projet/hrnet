@@ -1,0 +1,96 @@
+/* Inclure la police de symboles FontAwesome */
+/*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-first {
+    background: #f7fff7;
+    margin-bottom: 5em;
+    padding: 2em;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #6c850d;
+}
+.container{
+    width: 50%;
+}
+
+.container-form {
+    width: 100%;
+}
+ input{
+    width: 90%;
+    height: 2em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #6c850d;
+    border-radius: 0.5em;
+    outline: none;
+ }
+
+
+input[type="date"] {
+    position: relative;
+    padding: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+input[type="date"]:before {
+    background: none;
+    display: block;
+    /*font-family: "FontAwesome";*/
+    /*content: '\f073';*/
+    content: "📅";
+    /* This is the calendar icon in FontAwesome */
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    color: #999;
+}
+
+fieldset.address.column-flex {
+    width: 100%;
+}
+
+select{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #6c850d;
+    border-radius: 0.5em;
+    outline: none;
+}
+button{
+    width: 80%;
+    margin: 1.5em 0;
+    padding: 0.5em;
+    border: 1px solid #6c850d;
+    border-radius: 0.5em;
+    outline: none;
+    background: #41500d;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #6c850d;
+    margin: 0.5em 0;
+}
