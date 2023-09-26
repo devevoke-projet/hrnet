@@ -1,0 +1,123 @@
+.container-description {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 60px;
+}
+
+.bloc-description .title {
+    position: relative;
+    margin-top: 26px;
+    height: 52px;
+    border-radius: 10px;
+    background: #FF6060;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chevron-rotate {
+    transform: rotate(-179deg);
+}
+
+.bloc-description .title span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.bloc-description .title h3 {
+    margin: 13px 0px 13px 20px;
+}
+
+.bloc-description .texte {
+    visibility: collapse;
+    height: 17px;
+    overflow: auto;
+}
+
+.hidden {
+    height: auto !important;
+    margin-top: -23px;
+    border-radius: 0px 0px 10px 10px;
+    background: #F6F6F6;
+    color: #FF6060;
+    text-align: center;
+    padding-top: 20px;
+    visibility: visible !important;
+}
+
+.bloc-description .texte p {
+    width: 90%;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.bloc-description .texte li {
+    list-style-type: none;
+    text-align: left;
+    width: 90%;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+}
+
+.bloc-equipement {
+    width: 1%;
+}
+
+.bloc-equipement .title {
+    position: relative;
+    margin-top: 26px;
+    height: 52px;
+    border-radius: 10px;
+    background: #FF6060;
+    color: white;
+    text-align: left;
+    display: flex;
+}
+
+.bloc-equipement .detail {
+    margin-top: -14px;
+    height: 249px;
+    border-radius: 0px 0px 10px 10px;
+    background: #F6F6F6;
+    color: red;
+    text-align: center;
+    list-style-type: none;
+}
+
+.bloc-equipement .detail li {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.bloc-equipement .title h3 {
+    margin: 13px 0px 13px 20px;
+}
+
+.bloc-equipement ul {
+    margin: 10px;
+    padding-top: 15px;
+}
+
+@media (max-width: 800px) {
+    .container-description {
+        display: grid;
+        justify-content: space-between;
+        grid-column-gap: 60px;
+        grid-template-columns:1fr
+    }
+}

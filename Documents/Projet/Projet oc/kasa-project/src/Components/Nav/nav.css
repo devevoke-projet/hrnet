@@ -1,0 +1,30 @@
+.active {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-bar {
+    height: 34px;
+    width: 309px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: var(--couleur1);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li a {
+    color: #FF6060;
+    text-decoration: none;
+}

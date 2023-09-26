@@ -1,0 +1,29 @@
+:root {
+    --couleur1: #FF6060;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    margin: 5px 100px 5px 100px;
+}
+
+@media (max-width: 800px) {
+    body {
+        margin: 20px;
+    }
+
+    .background-filter {
+        width: calc(100% - 38px);
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    .header {
+        align-items: center;
+    }
+}
